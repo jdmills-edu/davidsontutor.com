@@ -1,0 +1,31 @@
+.gmap {
+  max-width: 100%;
+  line-height: 0;
+}
+.gmap iframe{
+  height:350px;
+}
+@media(max-width:767px){
+	.margin-bottom-767 {
+		margin-bottom:10px;
+	}
+}
+@media(max-width:460px){
+	h1 {
+		font-size:32px;
+		line-height:32px;
+	}
+	.navbar-header button{
+		margin-top:10px !important;
+	}
+	.navbar-brand {
+		padding:15px 0px 10px 0px !important;
+		max-width:200px;
+	}
+	.navbar-brand img {
+		width:100%;
+	}
+	.gmap {
+		display:none;
+	}
+}
